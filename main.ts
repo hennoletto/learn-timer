@@ -1,9 +1,9 @@
 let eunning = 0
 let minutes = 0
 input.onButtonPressed(Button.A, function () {
-    basic.showIcon(IconNames.Ghost)
     if (eunning == 1) {
         eunning = 0
+        basic.showIcon(IconNames.Ghost)
     } else {
         eunning = 1
         basic.showNumber(minutes)
